@@ -47,7 +47,7 @@ export default function SearchSection() {
                     onClick={() => { if (data) window.location.reload(); }}
                     disabled={loading}
                 >
-                    {loading ? "Cargando" : (data ? "Cargar otro" : "Convertir Video")}
+                    {loading ? "Cargando..." : (data ? "Cargar otro" : "Convertir Video")}
                 </button>
             </form>
             <div className="p-3">

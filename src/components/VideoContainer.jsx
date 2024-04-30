@@ -40,5 +40,5 @@ export default function VideoContainer({ data, loading, error }) {
         );
     }
 
-    return (<p className='text-slate-300'>Aqui deberia salir tu video cargado...</p>)
+    return (<p className='text-slate-300 lg:mt-0 mt-28'>Aqui deberia salir tu video cargado...</p>)
 }
