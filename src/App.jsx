@@ -1,6 +1,6 @@
 import Header from "./components/Header"
+import HelpSection from "./components/HelpSection"
 import Hero from "./components/Hero"
-import VideoContainer from "./components/VideoContainer"
 
 function App() {
 
@@ -11,8 +11,11 @@ function App() {
 
       <main className="flex flex-col justify-between h-[70vh] p-4">
         <Hero />
-        
       </main>
+
+      <footer className="flex flex-col justify-between mt-80 h-[100vh] text-white p-4">
+        <HelpSection />
+      </footer>
 
     </body>
   )
