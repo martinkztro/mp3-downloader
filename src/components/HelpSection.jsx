@@ -12,19 +12,19 @@ export default function HelpSection() {
                 <div>
                     <h3 className="lg:text-3xl text-2xl lg:mb-5 text-center font-black text-[#368DF1]">Paso 1</h3>
                     <p className="text-lg mb-3 text-center text-slate-300">Se abrirá otra página, haz clic en los <bold>3 puntitos de abajo</bold>:</p>
-                    <img className="lg:" src="public/step_1.png" alt="Imagen del paso 1" />
+                    <img className="lg:" src="step_1.png" alt="Imagen del paso 1" />
                 </div>
 
                 <div>
                     <h3 className="lg:text-3xl text-2xl lg:mb-5 text-center font-black text-[#368DF1]">Paso 2</h3>
                     <p className="text-lg mb-3 text-center text-slate-300">Se mostrará un menú como este, haz clic en <bold>Descargar</bold>:</p>
-                    <img className="lg:" src="public/step_2.png" alt="Imagen del paso 2" />
+                    <img className="lg:" src="step_2.png" alt="Imagen del paso 2" />
                 </div>
 
                 <div>
                     <h3 className="lg:text-3xl text-2xl lg:mb-5 text-center font-black text-[#368DF1]">Paso 3</h3>
                     <p className="text-lg mb-3 text-center text-slate-300">¡Listo! Tu video se descargará automáticamente:</p>
-                    <img className="lg:" src="public/step_3.png" alt="Imagen del paso 3" />
+                    <img className="lg:" src="step_3.png" alt="Imagen del paso 3" />
                 </div>
             </div>
         </div>
